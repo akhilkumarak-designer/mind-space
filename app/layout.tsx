@@ -11,10 +11,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "YOOM",
-  description: "Video calling App",
+  title: "MindSpace - Virtual Space for Brainstorm Your Ideas",
+  description: "**MindSpace** – A collaborative platform for sharing ideas and sparking creativity in a focused environment.",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/icons/ms-logo2.svg",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/ms-logo.svg",
           },
           variables: {
             colorText: "#fff",

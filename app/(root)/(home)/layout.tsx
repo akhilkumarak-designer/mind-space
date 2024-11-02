@@ -5,8 +5,8 @@ import Navbar from '@/components/Navbar';
 import Sidebar from '@/components/Sidebar';
 
 export const metadata: Metadata = {
-  title: 'YOOM',
-  description: 'A workspace for your team, powered by Stream Chat and Clerk.',
+  title: 'MindSpace - Virtual Space for Brainstorm Your Ideas',
+  description: '**MindSpace** – A collaborative platform for sharing ideas and sparking creativity in a focused environment.',
 };
 
 const RootLayout = ({ children }: Readonly<{children: ReactNode}>) => {

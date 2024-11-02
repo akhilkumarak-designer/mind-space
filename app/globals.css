@@ -38,6 +38,12 @@
   height: 100%;
 }
 
+/* In globals.css */
+.cl-logoBox {
+  height: 60px !important; /* Set your desired height */
+}
+
+
 .str-video__call-controls__button {
   height: 40px;
 }
